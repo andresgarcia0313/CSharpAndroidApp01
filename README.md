@@ -1,21 +1,37 @@
-# Team Members on this Project
+# CSharp Android App
 
-## Running the Android Virtual Emulator
+This is a basic Xamarin Android project that displays a "Hello World" message on an Android device or emulator.
 
-To launch the android emulator, use the following command:
+## Prerequisites
 
-```bash
-emulator -avd Pixel_7_Pro_API_33
-```
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [.NET SDK](https://dotnet.microsoft.com/download)
+- [Xamarin for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp)
 
-Make sure to replace "Pixel_7_Pro_API_33" with the name of your virtual device. You can find your device name using the following command:
+## Project Setup
+
+1. Clone this repository: `git clone [REPOSITORY_URL]`
+2. Navigate to the project folder: `cd App`
+3. Open the project in Visual Studio Code: `code .`
+
+## Build and Run
+
+To build and run the project, ensure you have an Android emulator running or a connected physical device. Then, execute the following commands:
 
 ```bash
 avdmanager list avd
+emulator -avd Pixel_7_Pro_API_33
+dotnet build
+dotnet run
 ```
 
-## Compile and Run
+This will display the "Hello World" message on the emulator or device screen.
 
-```PowerShell
-dotnet build && dotnet run
-```
+## Project Structure
+
+- `MainActivity.cs`: Contains the main logic of the Android application.
+- `Resources/layout/Main.axml`: User interface layout.
+
+## Contributing
+
+Feel free to contribute to this project. Open an issue or submit a pull request!
