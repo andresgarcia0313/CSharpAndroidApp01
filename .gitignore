@@ -1,0 +1,32 @@
+# Compiled files
+*.apk
+*.ap_
+*.aab
+bin/
+obj/
+
+# Android Studio
+*.iml
+.idea/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Visual Studio Code folders
+.vscode/
